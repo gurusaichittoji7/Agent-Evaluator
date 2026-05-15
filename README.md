@@ -6,9 +6,13 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 
 ## ✨ Key Features
 **Interactive Dashboard:** A Streamlit-based UI where users can paste AI responses and source documents for instant verification.
+
 **Automated Metrics:** Uses DeepEval to calculate Hallucination Scores (0.0 to 1.0).
+
 **Human-Centric Design:** Includes a Sensitivity Slider allowing managers to define how "strict" the judge should be based on the use case.
+
 **Explainable AI:** Provides clear, plain-English reasoning for every "Pass" or "Fail" result.
+
 
 ## 🛠️ The Tech Stack
 Core Logic: Python, DeepEval (LLM-eval framework)
