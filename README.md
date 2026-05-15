@@ -8,7 +8,7 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 
 
 
-## ✨ Key Features
+### ✨ Key Features
 **Interactive Dashboard:** A Streamlit-based UI where users can paste AI responses and source documents for instant verification.
 
 **Automated Metrics:** Uses DeepEval to calculate Hallucination Scores (0.0 to 1.0).
@@ -19,36 +19,32 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 
 
 
-## 🛠️ The Tech Stack
-Core Logic: Python, DeepEval (LLM-eval framework)
-
-Judge Model: OpenAI GPT-4o
-
-Frontend: Streamlit
-
-Environment: Dotenv for secure API management
+### 🛠️ The Tech Stack
+- Core Logic: Python, DeepEval (LLM-eval framework)
+- Judge Model: OpenAI GPT-4o
+- Frontend: Streamlit
+- Environment: Dotenv for secure API management
 
 
 
-## 🧪 How It Works (The 3 Scenarios)
-The "Liar" Test: Catching factual contradictions (Red Status).
-
-The "Lazy" Test: Identifying vague or unsupported answers (High Hallucination Score).
-
-The "Verified" Test: Confirming high-fidelity, accurate responses (Green Status).
+### 🧪 How It Works (The 3 Scenarios)
+- The "Liar" Test: Catching factual contradictions (Red Status).
+- The "Lazy" Test: Identifying vague or unsupported answers (High Hallucination Score).
+- The "Verified" Test: Confirming high-fidelity, accurate responses (Green Status).
 
 
 
-## 📥 Installation & Usage
-Clone the repo: git clone https://github.com/gurusaichittoji7/Agent-Evaluator.git
+### 📥 Installation & Usage
 
-Install dependencies: pip install -r requirements.txt
+1. Clone the repo: git clone https://github.com/gurusaichittoji7/Agent-Evaluator.git
 
-Set up .env: Add your OPENAI_API_KEY
+2. Install dependencies: pip install -r requirements.txt
 
-Run the app: streamlit run app.py
+3. Set up .env: Add your OPENAI_API_KEY
+
+4. Run the app: streamlit run app.py
 
 
 
-## output
+### output
 ![Agent Evaluator Dashboard](dashboard.png)
