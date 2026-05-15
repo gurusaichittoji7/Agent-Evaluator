@@ -9,13 +9,10 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 
 
 ### ✨ Key Features
-**Interactive Dashboard:** A Streamlit-based UI where users can paste AI responses and source documents for instant verification.
-
-**Automated Metrics:** Uses DeepEval to calculate Hallucination Scores (0.0 to 1.0).
-
-**Human-Centric Design:** Includes a Sensitivity Slider allowing managers to define how "strict" the judge should be based on the use case.
-
-**Explainable AI:** Provides clear, plain-English reasoning for every "Pass" or "Fail" result.
+- **Interactive Dashboard:** A Streamlit-based UI where users can paste AI responses and source documents for instant verification.
+- **Automated Metrics:** Uses DeepEval to calculate Hallucination Scores (0.0 to 1.0).
+- **Human-Centric Design:** Includes a Sensitivity Slider allowing managers to define how "strict" the judge should be based on the use case.
+- **Explainable AI:** Provides clear, plain-English reasoning for every "Pass" or "Fail" result.
 
 
 
@@ -35,7 +32,7 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 
 
 ### 📥 Installation & Usage
-
+```bash
 1. Clone the repo: git clone https://github.com/gurusaichittoji7/Agent-Evaluator.git
 
 2. Install dependencies: pip install -r requirements.txt
@@ -43,7 +40,7 @@ In high-stakes industries (Finance, Legal, Healthcare), "Hallucinations" (AI mak
 3. Set up .env: Add your OPENAI_API_KEY
 
 4. Run the app: streamlit run app.py
-
+```
 
 
 ### output
